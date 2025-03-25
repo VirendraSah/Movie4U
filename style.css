@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: black;
+}
+#searchBar{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+}
+.searchBarWrapper{
+    max-width: 1320px;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.searchBarWrapper h1{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+.searchBarWrapper input{
+    flex-grow: 1;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px 2px #749fd0;
+    padding: 0px 10px;
+    border: none;
+}
+
+#MovieCards{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.MovieCardsWrapper{
+    max-width: 1320px;
+    height: auto;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.moviecard{
+    width: 100%;
+    height: auto;
+}
+.moviecard figure{
+    width: 100%;
+}
+.moviecard figure img{
+    width: 100%;
+    display: block;
+    aspect-ratio: 3/4;
+}
+.MovieDetails{
+    width: 100%;
+    height: 50px;
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.MovieDetails h2{
+    flex-grow: 1;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: left;
+    color: black;
+    padding-left: 10px;
+}
+.MovieDetails p{
+    flex-grow: 1;
+    text-align: right;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    padding-right: 10px;
+}
